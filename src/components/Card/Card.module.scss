@@ -1,0 +1,13 @@
+.card{
+	width: 150px;
+	height: 100px;
+	padding: 10px;
+
+	border-radius: 5px;
+	background-color: grey;
+	color:white;
+
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
