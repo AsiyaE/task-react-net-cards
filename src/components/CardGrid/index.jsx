@@ -23,7 +23,6 @@ const CardGrid = () => {
   }, 1000);
 
   const number = useMemo(() => {
-    console.log('memory');
 
     return getNumber();
   }, [width, height]);
@@ -35,7 +34,6 @@ const CardGrid = () => {
       const limit = number - start;
 
       fetchData(start, limit);
-      console.log('fetch');
     }
     if (number < cards.length) {
       setCards((prev) => prev.slice(0, number));
